@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 04 - Login</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script defer src="./assets/js/script.js"></script>
+</head>
+
+<body>
+    <div class="section-left">
+        <div class="section-left__img">
+            <img src="./assets/img/img-section-left.svg"
+                alt="Imagem com vários perfis de pessoas com blusa verde em molduras circulares">
+        </div>
+    </div>
+
+    <main class="section-right">
+        <form action="#" class="section-right__content">
+            <div class="content__titles">
+                <h1>Bem vindo de volta</h1>
+                <h2>Faça login na sua conta</h2>
+            </div>
+
+            <div class="content__inputs">
+                <label for="email">E-mail</label>
+                <input type="email" autocomplete="off" id="email">
+
+                <label for="password">Senha</label>
+                <input type="password" id="password">
+            </div>
+
+            <div class="content__remember-pass">
+                <div class="remember-pass">
+                    <input type="radio" id="remember">
+                    <label for="remember">Lembre de mim</label>
+                </div>
+
+                <a href="#">Esqueceu sua senha?</a>
+            </div>
+
+            <div class="content__buttons">
+                <button onclick="pegaDados()">
+                    <span>Entrar</span>
+                </button>
+                <button>
+                    <img src="./assets/img/icon-google.svg" alt="ícone da google">
+                    <span>Ou faça login com o Google</span>
+                </button>
+            </div>
+
+            <span class="no-account">Não tem uma conta? <a href="#">Cadastre-se</a></span>
+        </form>
+    </main>
+</body>
+
+</html>
